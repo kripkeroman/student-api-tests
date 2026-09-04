@@ -1,0 +1,14 @@
+{
+  "name": "studenttestapi",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "pytest",
+    "allure:serve": "allure serve allure-results",
+    "allure:generate": "allure generate allure-results -o allure-report --clean",
+    "allure:open": "allure open allure-report"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.43.0"
+  }
+}
